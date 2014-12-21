@@ -28,7 +28,7 @@ module grip() {
 			translate([0,0,i+UnitHeight]) cylinder(r1 = GripGrooveOR, r2 = GripOR, h = UnitHeight, $fn = n);
 			translate([0,0,i+2*UnitHeight]) cylinder(r = GripOR, h = UnitHeight, $fn = n);
 			translate([0,0,i+3*UnitHeight]) cylinder(r1 = GripOR, r2 = GripGrooveOR, h = UnitHeight, $fn = n);
-		};
+		}
 		translate([0,0,-0.1]) cylinder(r = GripIR, h = OverallLength + 0.2, $fn = n);
 	}
 }
